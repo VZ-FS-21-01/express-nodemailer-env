@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/send" method="post">
+        <label>Name: <input type="text" name="name"></label>
+        <label>Email:
+            <input type="email" name="email">
+        </label>
+        <label> Message:
+            <textarea name="message" cols="30" rows="10"></textarea>
+        </label>
+        <input type="submit" value="Senden">
+
+    </form>
+</body>
+
+</html>
